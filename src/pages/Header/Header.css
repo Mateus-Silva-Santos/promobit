@@ -1,9 +1,16 @@
 header {
-    width: 100%;
+    max-width: 100%;
     background-color: #5C16C5;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+}
+
+nav {
     display: flex;
     align-items: center;
-    height: 56px;
+    height: 100%;
+    width: 90%;
 }
 
 header a {

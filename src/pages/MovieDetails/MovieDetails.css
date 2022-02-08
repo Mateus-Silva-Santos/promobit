@@ -1,0 +1,65 @@
+.hero-movie-details {
+    background-color: #2D0C5E;
+    color: #FFFFFF;
+    position: absolute;
+    padding: 70px 70px 70px 100px;
+    height: 60%;
+    max-width: 100%;
+}
+
+.hero-details img {
+    width: 383px;
+    height: 574px;
+}
+
+.hero-details {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.info-details {
+    max-width: 60%;
+    padding: 30px;
+}
+
+.sinopse {
+    word-wrap: break-word;
+}
+
+.movie-cast {
+    margin-top: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.movie-cast h1{
+    display: flex;
+    align-self: flex-start;
+    padding-left: 100px;
+}
+
+.grid-container {
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    max-width: 82%;
+}
+.grid-item{
+    width: 500px;
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    margin: 0 5px;
+    padding:10px;
+}
+
+.img-actor{
+    height: 222px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.trailer h1{
+    padding-left: 70px;
+}
